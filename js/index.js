@@ -254,7 +254,7 @@ function moveTilesRight(gameState) {
         updateBoard();
     }
     printBoard();
-    return mergeFlag || shiftFlag;
+    return mergeFlag || shiftflag;
 }
 
 function shiftUp(col) {
