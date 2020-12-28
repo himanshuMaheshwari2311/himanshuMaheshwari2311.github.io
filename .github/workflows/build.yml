@@ -1,22 +1,19 @@
-name: Build Jekyll
+name: Build and deploy Jekyll site to github pages
 
 on:
   push:
     branches:
-      - "*"
+      - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  github-pages:
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Ruby 2.6
-        uses: actions/setup-ruby@v1
+      - uses: helaili/jekyll-action@2.0.4
+        env:
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
         with:
-          ruby-version: 2.6
-      - name: Build and test with Jekyll
-        run: |
-          sudo apt-get -yqq install libpq-dev
-          gem install bundler
-          bundle install --jobs 4 --retry 3
-          bundle exec jekyll build
+          jekyll_src: ./
+          gem_src: ./
+          target_branch: 'gh-pages'
