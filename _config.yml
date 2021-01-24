@@ -27,7 +27,7 @@ dash:
       icon: github-square
       color: yellow
     - url: https://stackoverflow.com/users/5204691/stark?tab=profile
-      icon: stackoverflow
+      icon: stack-overflow
       color: orange
     - url: https://twitter.com/tnf_stark
       icon: twitter
