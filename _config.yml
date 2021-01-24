@@ -3,7 +3,7 @@ url: himanshuMaheshwari2311.github.io
 author: Himanshu Maheshwari
 email: m.himanshu2311@gmail.com
 description: >
-  Something coming up soon ....
+  Passionate software developer, curious about each and everthing about computure science. Open to learn anything interesting and collaborate on fun projects
 show_excerpts: false # set to true to show excerpts on the homepage
 paginate: 20
 paginate_path: "/blog/page:num/"
@@ -20,15 +20,21 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://www.instagram.com/maheshwari_himanshu/
-      icon: instagram
-      color: red
     - url: https://www.linkedin.com/in/maheshwari-himanshu/
       icon: linkedin
-      color: blue
+      color: cyan
     - url: https://github.com/himanshuMaheshwari2311
       icon: github-square
       color: yellow
+    - url: https://stackoverflow.com/users/5204691/stark?tab=profile
+      icon: stackoverflow
+      color: orange
+    - url: https://twitter.com/tnf_stark
+      icon: twitter
+      color: blue
+    - url: https://www.instagram.com/maheshwari_himanshu/
+      icon: instagram
+      color: red
 
 # Build settings
 remote_theme: bitbrain/jekyll-dash
