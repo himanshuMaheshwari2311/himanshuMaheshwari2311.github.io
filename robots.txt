@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: http://stark-dev.com/sitemap-index.xml
+Sitemap: https://himanshumaheshwari2311.github.io/sitemap-index.xml
