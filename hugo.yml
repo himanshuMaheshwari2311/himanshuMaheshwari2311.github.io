@@ -1,0 +1,110 @@
+baseURL: "https://www.stark-dev.com/"
+title: "Himanshu Maheshwari"
+copyright: "© 2026 Himanshu Maheshwari"
+theme: ["PaperMod"]
+languageCode: en-us
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+
+mainsections: ["posts"]
+
+pagination:
+  pagerSize: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  tag: tags
+  category: categories
+
+menu:
+  main:
+    - name: Blog
+      url: /posts/
+      weight: 1
+    - name: Projects
+      url: /projects/
+      weight: 2
+    - name: Bookshelf
+      url: /bookshelf/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
+    - name: Search
+      url: /search/
+      weight: 5
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+minify:
+  disableXML: true
+
+params:
+  env: production
+  description: "Backend software engineer. Building scalable systems with Kotlin, Spring, AWS, and Kubernetes."
+  author: "Himanshu Maheshwari"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowToc: true
+  TocOpen: false
+
+  homeInfoParams:
+    Title: "Hi, I'm Himanshu"
+    Content: >
+      Backend software engineer based in Amsterdam.
+      I build scalable systems with Kotlin, Spring, AWS, and Kubernetes.
+
+
+      Welcome to my corner of the internet where I write about
+      software engineering, books, and ideas.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/himanshuMaheshwari2311"
+    - name: linkedin
+      url: "https://linkedin.com/in/maheshwari-himanshu"
+    - name: email
+      url: "mailto:stark.9190.nl@gmail.com"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 1
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+  assets:
+    disableHLJS: true
