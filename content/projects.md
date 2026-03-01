@@ -7,13 +7,18 @@ ShowBreadCrumbs: false
 
 ## Featured Projects
 
-### Log Later
-
-**Save articles. Read later. Remember forever.**
+<details class="project-tile">
+<summary>
+<div class="tile-header">
+<span class="tile-title">Log Later</span>
+<span class="tile-tagline">Save articles. Read later. Remember forever.</span>
+</div>
+</summary>
+<div class="tile-body">
 
 A modern, privacy-first read-it-later app — a clean alternative to Pocket and Instapaper. Save articles via browser extension, share sheet, or URL paste, and read them in a distraction-free environment with customizable typography, dark mode, and reading progress tracking.
 
-**Key Features:**
+**Highlights:**
 - Distraction-free reader with font/width controls, dark mode, and scroll progress that syncs across devices
 - Full-text search with PostgreSQL `tsvector` and relevance ranking
 - Smart organization — color-coded tags, filters, favorites, and bulk actions
@@ -22,11 +27,25 @@ A modern, privacy-first read-it-later app — a clean alternative to Pocket and 
 - Flutter mobile app with native share-sheet integration
 - Privacy-focused — no tracking, no ads, self-hosted option
 
-**Tech Stack:** Next.js 15 (App Router), TypeScript, PostgreSQL, Drizzle ORM, Better Auth, Tailwind CSS, shadcn/ui, Anthropic Claude API, Flutter, Turborepo
+<div class="tile-meta">
+<span class="tile-tag">Next.js 15</span>
+<span class="tile-tag">TypeScript</span>
+<span class="tile-tag">PostgreSQL</span>
+<span class="tile-tag">Drizzle ORM</span>
+<span class="tile-tag">Better Auth</span>
+<span class="tile-tag">Tailwind CSS</span>
+<span class="tile-tag">Claude API</span>
+<span class="tile-tag">Flutter</span>
+<span class="tile-tag">Turborepo</span>
+</div>
 
-**Status:** Invite-only Beta
+<div class="tile-links">
+<a href="https://log-later.com" class="tile-link" target="_blank">Visit site →</a>
+<span class="tile-status">Invite-only Beta</span>
+</div>
 
-**Link:** [log-later.com](https://log-later.com)
+</div>
+</details>
 
 ---
 
