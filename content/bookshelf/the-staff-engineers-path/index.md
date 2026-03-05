@@ -1,6 +1,6 @@
 ---
 title: "The Staff Engineer's Path"
-date: 2024-04-06
+date: 2025-03-06
 description: "Tanya Reilly's guide on what it means to be a staff engineer — navigating the technical leadership track with big picture thinking, execution and influence"
 tags: ["software-engineering", "career", "leadership", "books"]
 ShowToc: true
@@ -555,11 +555,11 @@ Something will always go wrong. You'll have a better time if you go into the pro
 
 ### Chapter 6. Why have we stopped?
 
-Projects get blocked all the time. As a staff engineer you need to figure out why and get things moving again. Sometimes the blocker is technical, sometimes it's people, sometimes it's just that nobody knows what to do next.
+Projects get blocked all the time. As a staff engineer you need to figure out why and unblock them. The interesting takeaway from this chapter is that the blockers are not always technical, sometimes it's people, sometimes it's process and sometimes it's just that nobody knows what to do next.
 
 **Identifying what's wrong**
 
-When a project has stalled, the first step is to figure out what's actually going on. Some common reasons are
+When a project has stalled, the first step is to diagnose what's actually going on. Don't assume you know the problem, investigate first. Talk to people on the team individually and ask open ended questions. Sometimes the real issue is not the one people are talking about in standup. Some common reasons projects stall are
 
 - The project is harder than expected - scope was underestimated or the technical complexity was not fully understood
 - The team is stuck on a decision - nobody wants to make the call and the project is in limbo
@@ -568,38 +568,31 @@ When a project has stalled, the first step is to figure out what's actually goin
 - The project has lost its sponsor or priority - someone above has shifted focus and the team doesn't know if this still matters
 - Morale is low - people are burned out or have lost motivation
 
-Don't assume you know the problem, investigate first. Talk to people on the team individually and ask open ended questions. Sometimes the real issue is not the one people are talking about in standup.
+**Dealing with blocked projects**
 
-**Blocked on people**
+The author categorises blockers into three broad types
 
-A lot of project stalls come down to people problems
+- Blocked on people
+    - Missing people - The project might need skills that are not on the team. You need to either recruit, train or find a workaround
+    - Too many people - Sometimes too many cooks in the kitchen causes confusion and slows things down. Clarify roles and reduce the decision making group
+    - Conflict - If two people disagree and neither will budge, you might need to mediate or escalate. Don't let disagreements fester, they poison the team
+    - Someone is not delivering - This is uncomfortable but you have to address it. Talk to them privately, understand if there's a blocker and if needed involve their manager
+    - The wrong person is leading - If the current lead is struggling, you might need to step in or find someone better suited. Be tactful about this
+- Blocked on decisions
+    - Set a deadline for the decision - Open ended deliberation can go on forever. Give it a date
+    - Reduce the options - Instead of exploring every possibility, narrow it down to two or three and force a choice
+    - Make it reversible - If people are afraid of committing, point out that the decision can be revisited later. Not all decisions are permanent
+    - Escalate if needed - If the decision is above your pay grade or involves competing priorities between teams, bring it to someone who can make the call
+    - Default to action - When in doubt, pick the option that gets you moving. A mediocre decision now is often better than a perfect decision in three months
+- Blocked on technical problems
+    - Spike it - If the team is stuck on a technical problem, time box an investigation. Give someone a day or two to explore and come back with options
+    - Get help - Bring in someone with expertise. Don't let the team struggle alone when there's someone in the org who has solved this before
+    - Simplify - If the approach is too complex, step back and ask if there's a simpler way to achieve the same goal. Sometimes the solution is to do less
+    - Break it down - A big scary problem becomes manageable when you break it into smaller pieces. Find the smallest thing you can do to make progress
 
-- Missing people - The project might need skills that are not on the team. You need to either recruit, train or find a workaround
-- Too many people - Sometimes too many cooks in the kitchen causes confusion and slows things down. Clarify roles and reduce the decision making group
-- Conflict - If two people disagree and neither will budge, you might need to mediate or escalate. Don't let disagreements fester, they poison the team
-- Someone is not delivering - This is uncomfortable but you have to address it. Talk to them privately, understand if there's a blocker and if needed involve their manager
-- The wrong person is leading - If the current lead is struggling, you might need to step in or find someone better suited. Be tactful about this
+**Getting momentum back**
 
-**Blocked on decisions**
-
-Indecision is one of the most common reasons projects stall. Some tactics to get things moving
-
-- Set a deadline for the decision - Open ended deliberation can go on forever. Give it a date
-- Reduce the options - Instead of exploring every possibility, narrow it down to two or three and force a choice
-- Make it reversible - If people are afraid of committing, point out that the decision can be revisited later. Not all decisions are permanent
-- Escalate if needed - If the decision is above your pay grade or involves competing priorities between teams, bring it to someone who can make the call
-- Default to action - When in doubt, pick the option that gets you moving. A mediocre decision now is often better than a perfect decision in three months
-
-**Blocked on technical problems**
-
-- Spike it - If the team is stuck on a technical problem, time box an investigation. Give someone a day or two to explore and come back with options
-- Get help - Bring in someone with expertise. Don't let the team struggle alone when there's someone in the org who has solved this before
-- Simplify - If the approach is too complex, step back and ask if there's a simpler way to achieve the same goal. Sometimes the solution is to do less
-- Break it down - A big scary problem becomes manageable when you break it into smaller pieces. Find the smallest thing you can do to make progress
-
-**Restarting**
-
-Once you've identified and removed the blocker you need to get momentum back. Some things that help
+Once you've identified and removed the blocker you need to restart the engine. The longer a project has been stalled the harder it is to get going again
 
 - Celebrate small wins - After a stall, morale needs a boost. Ship something small and visible
 - Reset expectations - If the project is behind schedule, be honest about it. Update the timeline and communicate it to stakeholders
@@ -610,11 +603,11 @@ Once you've identified and removed the blocker you need to get momentum back. So
 
 ### Chapter 7. You're a role model now (sorry)
 
-Whether you like it or not, people are watching what you do. As a staff engineer your behaviour sets the tone for the team and sometimes the org. You are teaching by example all the time.
+Whether you like it or not, people are watching what you do. As a staff engineer your behaviour sets the tone for the team and sometimes the org. You are teaching by example all the time. This chapter resonated with me because it highlights how much of leadership is not about what you say but what you do.
 
 **What does it mean to do a good job?**
 
-Your definition of good work gets adopted by the people around you. If you write tests, others will write tests. If you cut corners, others will cut corners. You set the standard by how you work, not by what you say in meetings.
+Your definition of good work gets adopted by the people around you. If you write tests, others will write tests. If you cut corners, others will cut corners. You set the standard by how you work, not by what you say in meetings
 
 - Be aware of what you're modelling - Every PR you submit, every RFC you write, every meeting you run is a template for others. Ask yourself if you'd be happy seeing your team replicate your habits
 - Quality is contagious - When you hold yourself to high standards it gives others permission to do the same. It also makes it easier to push back on low quality work
@@ -622,7 +615,7 @@ Your definition of good work gets adopted by the people around you. If you write
 
 **Being visible**
 
-You need to be visible in a way that's helpful to others, not just to build your own reputation
+You need to be visible in a way that's helpful to others, not just to build your own reputation. The author emphasises that visibility is not about self promotion, it's about creating a trail of knowledge that others can follow
 
 - Write things down - Your RFCs, post-mortems and design docs become reference material for the team. Writing is one of the most scalable ways to share knowledge
 - Show your work - Don't just announce decisions, explain the reasoning behind them. This teaches others how to think about similar problems
@@ -635,12 +628,12 @@ People are watching you most closely when things go wrong. How you handle incide
 
 - Stay calm - If you panic, everyone panics. Take a breath and think clearly
 - Take responsibility - If something broke because of your decision, own it. This gives others permission to be honest about their mistakes too
-- Focus on learning not blame - After an incident, run a proper retrospective. Ask what happened, not who's fault it was
+- Focus on learning not blame - After an incident, run a proper retrospective. Ask what happened, not whose fault it was
 - Be kind - When someone makes a mistake, how you react shapes whether they'll take risks in the future or play it safe
 
 **Setting the culture**
 
-You have more influence on team culture than you think. Some things you can actively shape
+You have more influence on team culture than you think. A good way to think about this is that culture is not what you put on a wiki page, it's the behaviour that gets repeated. Some things you can actively shape
 
 - How meetings are run - If you run efficient meetings with agendas and action items, others will follow
 - How disagreements happen - Model respectful disagreement. Show that it's okay to push back on ideas without making it personal
@@ -651,7 +644,7 @@ You have more influence on team culture than you think. Some things you can acti
 
 ### Chapter 8. Good influence at scale
 
-This chapter is about multiplying your impact beyond the projects you directly work on. As a staff engineer your influence should make the whole org better, not just your immediate team.
+This chapter is about multiplying your impact beyond the projects you directly work on. The core idea is that as a staff engineer your influence should make the whole org better, not just your immediate team. This ties back to the third pillar from the introduction — positive influence.
 
 **Giving advice**
 
@@ -664,7 +657,7 @@ People will come to you for advice a lot. How you handle this matters
 
 **Teaching and mentoring**
 
-Teaching is one of the highest leverage things you can do
+Teaching is one of the highest leverage things you can do. The distinction between mentoring and sponsorship in this section is something I found very valuable
 
 - Mentoring - Having a mentee gives you a chance to share your experience and also relearn things in the process. A good mentor helps someone see things they can't see on their own
 - Sponsorship - Sponsorship is different from mentoring. A sponsor actively advocates for someone, puts their name forward for opportunities and uses their social capital to create openings. Mentoring helps someone navigate, sponsorship opens doors
@@ -673,7 +666,7 @@ Teaching is one of the highest leverage things you can do
 
 **Guardrails, not gates**
 
-You want to create systems that help people do the right thing by default rather than reviewing everything yourself
+This was my favorite section in the chapter. You want to create systems that help people do the right thing by default rather than reviewing everything yourself
 
 - Paved roads - Build the easy path so that teams can follow best practices without having to think too hard about it. Good defaults, templates, starter kits, all of these reduce the cognitive load on teams
 - Automation over process - If you find yourself reviewing the same thing over and over, automate the check. Linters, CI checks, and automated tests are all forms of guardrails
@@ -693,11 +686,11 @@ When you see a pattern of problems across the org, that's a signal that somethin
 
 ### Chapter 9. What's next?
 
-This final chapter is a reflection on where to go from here and how to keep growing as a staff engineer.
+The final chapter is a reflection on where to go from here and how to keep growing as a staff engineer. It ties the whole book together by asking you to think about sustainability and what you really want.
 
 **What do you want?**
 
-Take time to think about what you actually want from your career. Not what others expect of you, but what makes you happy and fulfilled
+Take time to think about what you actually want from your career. Not what others expect of you, but what makes you happy and fulfilled. This connects back to the five personal indexes from chapter four
 
 - Do you want to stay on the IC track or explore management?
 - Are you growing in your current role or have you plateaued?
@@ -708,7 +701,7 @@ These are questions worth revisiting periodically. What you wanted two years ago
 
 **Keeping your skills sharp**
 
-With seniority comes the risk of getting too far from the code and losing your technical edge
+With seniority comes the risk of getting too far from the code and losing your technical edge. The foundation of the three pillars is still tech and knowledge experience
 
 - Stay hands on - Even if you're not coding full time, keep writing code. Contribute to projects, do code reviews, pick up small tasks
 - Learn new things - The industry moves fast. Set aside time for learning, whether it's a new language, a new architecture pattern or a new domain
@@ -717,7 +710,7 @@ With seniority comes the risk of getting too far from the code and losing your t
 
 **Sustainability**
 
-You can't operate at high intensity forever. Think about long term sustainability
+You can't operate at high intensity forever. Think about long term sustainability. This ties to the energy and happiness indexes discussed earlier
 
 - Set boundaries - It's easy to take on too much because everything feels important. Protect your time and energy
 - Take breaks - Burnout is real and it creeps up on you. Take time off and actually disconnect
