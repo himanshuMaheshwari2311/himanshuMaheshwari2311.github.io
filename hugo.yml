@@ -59,8 +59,17 @@ params:
   env: production
   description: "Backend software engineer. Building scalable systems with Kotlin, Spring, AWS, and Kubernetes."
   author: "Himanshu Maheshwari"
+  keywords: ["backend", "software-engineering", "kotlin", "spring", "aws", "kubernetes", "distributed-systems", "microservices"]
+  images: ["stark.png"]
   defaultTheme: auto
   disableThemeToggle: false
+
+  schema:
+    publisherType: "Person"
+
+  analytics:
+    google:
+      SiteVerificationTag: "OBrW1v4Zpg968j77X-5X3eEfHsMLjvuqRJo5glfZ4Nw"
 
   ShowReadingTime: true
   ShowShareButtons: false
